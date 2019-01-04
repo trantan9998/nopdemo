@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <_PublishTargetUrl>ftp://www.baloneoo.somee.com/www.baloneoo.somee.com</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Areas/adminbalo/admintemplate/css/bootstrap-theme.css">
+      <publishTime>11/24/2018 21:53:00</publishTime>
+    </File>
+    <File Include="Areas/adminbalo/admintemplate/css/elegant-icons-style.css">
+      <publishTime>11/24/2018 21:53:11</publishTime>
+    </File>
+    <File Include="Areas/adminbalo/admintemplate/css/style.css">
+      <publishTime>11/24/2018 21:53:32</publishTime>
+    </File>
+    <File Include="Areas/adminbalo/admintemplate/fonts/ElegantIcons.eot">
+      <publishTime>10/03/2018 22:34:48</publishTime>
+    </File>
+    <File Include="Areas/adminbalo/admintemplate/fonts/ElegantIcons.svg">
+      <publishTime>10/03/2018 22:34:48</publishTime>
+    </File>
+    <File Include="Areas/adminbalo/admintemplate/fonts/ElegantIcons.ttf">
+      <publishTime>10/03/2018 22:34:48</publishTime>
+    </File>
+    <File Include="Areas/adminbalo/admintemplate/fonts/ElegantIcons.woff">
+      <publishTime>10/03/2018 22:34:48</publishTime>
+    </File>
+    <File Include="Areas/adminbalo/admintemplate/fonts/fontawesome-webfont.eot">
+      <publishTime>10/03/2018 22:34:48</publishTime>
+    </File>
+    <File Include="Areas/adminbalo/admintemplate/fonts/fontawesome-webfont.svg">
+      <publishTime>10/03/2018 22:34:48</publishTime>
+    </File>
+    <File Include="Areas/adminbalo/admintemplate/fonts/fontawesome-webfont.ttf">
+      <publishTime>10/03/2018 22:34:48</publishTime>
+    </File>
+    <File Include="Areas/adminbalo/admintemplate/fonts/fontawesome-webfont.woff">
+      <publishTime>10/03/2018 22:34:48</publishTime>
+    </File>
+    <File Include="Areas/adminbalo/admintemplate/fonts/FontAwesome.otf">
+      <publishTime>10/03/2018 22:34:48</publishTime>
+    </File>
+    <File Include="Areas/adminbalo/admintemplate/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>10/03/2018 22:34:48</publishTime>
+    </File>
+    <File Include="Areas/adminbalo/admintemplate/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>10/03/2018 22:34:48</publishTime>
+    </File>
+    <File Include="Areas/adminbalo/admintemplate/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>10/03/2018 22:34:48</publishTime>
+    </File>
+    <File Include="Areas/adminbalo/admintemplate/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>10/03/2018 22:34:48</publishTime>
+    </File>
+    <File Include="Areas/adminbalo/admintemplate/img/icons/line-icon-c.png">
+      <publishTime>10/03/2018 22:34:48</publishTime>
+    </File>
+    <File Include="Areas/adminbalo/admintemplate/img/icons/line-icon-hover.png">
+      <publishTime>10/03/2018 22:34:48</publishTime>
+    </File>
+    <File Include="Areas/adminbalo/admintemplate/img/icons/line-icon.png">
+      <publishTime>10/03/2018 22:34:48</publishTime>
+    </File>
+    <File Include="Areas/adminbalo/admintemplate/img/icons/search-line-icon.png">
+      <publishTime>10/03/2018 22:34:48</publishTime>
+    </File>
+    <File Include="Areas/adminbalo/admintemplate/img/icons/social.png">
+      <publishTime>10/03/2018 22:34:48</publishTime>
+    </File>
+    <File Include="Areas/adminbalo/admintemplate/img/icons/weather-hover.png">
+      <publishTime>10/03/2018 22:34:48</publishTime>
+    </File>
+    <File Include="Areas/adminbalo/admintemplate/img/icons/weather.png">
+      <publishTime>10/03/2018 22:34:48</publishTime>
+    </File>
+    <File Include="Areas/adminbalo/Views/Home/ADquanlysanpham.cshtml">
+      <publishTime>11/24/2018 19:20:54</publishTime>
+    </File>
+    <File Include="Areas/adminbalo/Views/Home/Sua.cshtml">
+      <publishTime>11/24/2018 23:30:29</publishTime>
+    </File>
+    <File Include="Areas/adminbalo/Views/Home/Them.cshtml">
+      <publishTime>11/24/2018 19:08:39</publishTime>
+    </File>
+    <File Include="Areas/adminbalo/Views/Home/Xoa.cshtml">
+      <publishTime>11/24/2018 19:09:11</publishTime>
+    </File>
+    <File Include="Areas/adminbalo/Views/khachhang/chitietdonhang.cshtml">
+      <publishTime>11/24/2018 19:10:34</publishTime>
+    </File>
+    <File Include="Areas/adminbalo/Views/khachhang/dangnhapad.cshtml">
+      <publishTime>11/24/2018 23:18:33</publishTime>
+    </File>
+    <File Include="Areas/adminbalo/Views/khachhang/donhang.cshtml">
+      <publishTime>11/24/2018 19:12:08</publishTime>
+    </File>
+    <File Include="Areas/adminbalo/Views/khachhang/khachhang.cshtml">
+      <publishTime>11/25/2018 12:40:31</publishTime>
+    </File>
+    <File Include="Areas/adminbalo/Views/khachhang/Suakh.cshtml">
+      <publishTime>11/25/2018 00:35:47</publishTime>
+    </File>
+    <File Include="Areas/adminbalo/Views/Shared/Adminlayout.cshtml">
+      <publishTime>11/24/2018 19:16:58</publishTime>
+    </File>
+    <File Include="Areas/adminbalo/Views/Shared/_Layout.cshtml">
+      <publishTime>11/24/2018 19:16:45</publishTime>
+    </File>
+    <File Include="Areas/adminbalo/Views/web.config">
+      <publishTime>09/30/2018 20:25:40</publishTime>
+    </File>
+    <File Include="Areas/adminbalo/Views/_ViewStart.cshtml">
+      <publishTime>09/30/2018 20:27:59</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>03/02/2015 09:32:26</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>03/02/2015 09:32:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>10/16/2017 14:14:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/PagedList.dll">
+      <publishTime>09/30/2013 17:36:38</publishTime>
+    </File>
+    <File Include="bin/PagedList.Mvc.dll">
+      <publishTime>09/30/2013 18:15:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.Process.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.DriveInfo.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.AccessControl.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Claims.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Principal.Windows.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Thread.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>02/01/2018 12:16:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>02/01/2018 12:16:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/websiteBALO.dll">
+      <publishTime>11/25/2018 13:06:59</publishTime>
+    </File>
+    <File Include="bin/websiteBALO.pdb">
+      <publishTime>11/25/2018 13:06:59</publishTime>
+    </File>
+    <File Include="Content/balopartial.css">
+      <publishTime>11/24/2018 21:31:01</publishTime>
+    </File>
+    <File Include="Content/chitietsanpham.css">
+      <publishTime>11/24/2018 21:31:13</publishTime>
+    </File>
+    <File Include="Content/css.css">
+      <publishTime>11/24/2018 21:31:22</publishTime>
+    </File>
+    <File Include="Content/cuoitrang.css">
+      <publishTime>11/24/2018 21:31:30</publishTime>
+    </File>
+    <File Include="Content/dangnhap.css">
+      <publishTime>11/24/2018 21:31:39</publishTime>
+    </File>
+    <File Include="Content/menu.css">
+      <publishTime>11/24/2018 21:31:47</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>11/24/2018 21:31:57</publishTime>
+    </File>
+    <File Include="Content/timkiem.css">
+      <publishTime>11/24/2018 21:32:05</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>09/25/2018 21:18:50</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>09/25/2018 21:18:50</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>09/25/2018 21:18:50</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>09/25/2018 21:18:50</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>09/25/2018 21:14:52</publishTime>
+    </File>
+    <File Include="hinh/11.jpg">
+      <publishTime>11/24/2018 23:01:47</publishTime>
+    </File>
+    <File Include="hinh/11925.jpg">
+      <publishTime>09/25/2018 21:31:22</publishTime>
+    </File>
+    <File Include="hinh/26682_Physical_Fitness_Premium_PowerPoint_Template_Slide_1_.jpg">
+      <publishTime>10/14/2018 15:00:18</publishTime>
+    </File>
+    <File Include="hinh/3733036_Tinhte.vn_ASUS_RoG_Accessories-5.jpg">
+      <publishTime>09/25/2018 21:31:22</publishTime>
+    </File>
+    <File Include="hinh/adesivo-nike-sb-nike.jpg">
+      <publishTime>11/24/2018 23:02:09</publishTime>
+    </File>
+    <File Include="hinh/backgroud.jpg">
+      <publishTime>09/25/2018 21:31:23</publishTime>
+    </File>
+    <File Include="hinh/balo-torus-63z09023-02.jpg">
+      <publishTime>09/25/2018 21:31:23</publishTime>
+    </File>
+    <File Include="hinh/balolaptop/1.jpg">
+      <publishTime>09/26/2018 10:52:07</publishTime>
+    </File>
+    <File Include="hinh/balolaptop/1536637611-adidas-prime-iv-backpack-m-black-1.jpg">
+      <publishTime>09/26/2018 10:52:07</publishTime>
+    </File>
+    <File Include="hinh/balolaptop/2.jpg">
+      <publishTime>09/26/2018 10:52:07</publishTime>
+    </File>
+    <File Include="hinh/balolaptop/BALO-B2B05-RED-mat-truoc-1-300x300.jpg">
+      <publishTime>09/25/2018 21:31:24</publishTime>
+    </File>
+    <File Include="hinh/balolaptop/BALO-B2B17-BROWN-mat-truoc-300x300 - Copy.jpg">
+      <publishTime>10/10/2018 00:08:37</publishTime>
+    </File>
+    <File Include="hinh/balolaptop/BALO-B2B17-BROWN-mat-truoc-300x300.jpg">
+      <publishTime>09/25/2018 21:31:24</publishTime>
+    </File>
+    <File Include="hinh/balolaptop/BALO-ISSAC4-D.GREY-1-300x300.jpg">
+      <publishTime>09/25/2018 21:31:24</publishTime>
+    </File>
+    <File Include="hinh/balolaptop/BALO-SCHULER-L.NAVY_-300x300.jpg">
+      <publishTime>09/25/2018 21:31:24</publishTime>
+    </File>
+    <File Include="hinh/balolaptop/capxach1.png">
+      <publishTime>11/24/2018 23:20:10</publishTime>
+    </File>
+    <File Include="hinh/balolaptop/sbv105bk__1_.jpg">
+      <publishTime>10/10/2018 00:08:37</publishTime>
+    </File>
+    <File Include="hinh/balolaptop/sbv107bk__1_.jpg">
+      <publishTime>10/10/2018 00:08:37</publishTime>
+    </File>
+    <File Include="hinh/balolaptop/sbv108dn__2__large.jpg">
+      <publishTime>10/03/2018 13:08:21</publishTime>
+    </File>
+    <File Include="hinh/balolaptop/sbv114bk__2_.jpg">
+      <publishTime>10/02/2018 21:08:05</publishTime>
+    </File>
+    <File Include="hinh/balolaptop/sbv115dg__3__large.jpg">
+      <publishTime>10/03/2018 13:08:21</publishTime>
+    </File>
+    <File Include="hinh/balolaptop/sbv118bk__2__large.jpg">
+      <publishTime>10/03/2018 13:08:21</publishTime>
+    </File>
+    <File Include="hinh/balolaptop/sbv122dn__3__large.jpg">
+      <publishTime>10/03/2018 13:08:21</publishTime>
+    </File>
+    <File Include="hinh/balolaptop/sbvd08kk__2_.jpg">
+      <publishTime>10/10/2018 00:08:37</publishTime>
+    </File>
+    <File Include="hinh/batros.PNG">
+      <publishTime>11/24/2018 23:04:40</publishTime>
+    </File>
+    <File Include="hinh/bg-1.jpg">
+      <publishTime>11/24/2018 23:03:14</publishTime>
+    </File>
+    <File Include="hinh/bg-balo-1.jpg">
+      <publishTime>11/24/2018 23:57:18</publishTime>
+    </File>
+    <File Include="hinh/Blue-Blur-Background1.jpg">
+      <publishTime>09/25/2018 21:31:23</publishTime>
+    </File>
+    <File Include="hinh/Bright-Blue1.jpg">
+      <publishTime>09/25/2018 21:31:23</publishTime>
+    </File>
+    <File Include="hinh/canvas.png">
+      <publishTime>09/25/2018 21:31:23</publishTime>
+    </File>
+    <File Include="hinh/circles_points_connections_125946_3840x2400.jpg">
+      <publishTime>09/25/2018 21:31:23</publishTime>
+    </File>
+    <File Include="hinh/colored-background-colored-background-colored-background-in-snapchat-colored-background-png-colored.jpg">
+      <publishTime>11/24/2018 23:00:29</publishTime>
+    </File>
+    <File Include="hinh/colors-15646704.jpg">
+      <publishTime>11/24/2018 23:00:26</publishTime>
+    </File>
+    <File Include="hinh/facebook.png">
+      <publishTime>09/25/2018 21:31:24</publishTime>
+    </File>
+    <File Include="hinh/footer-fortune-technology-india.png">
+      <publishTime>11/24/2018 23:03:48</publishTime>
+    </File>
+    <File Include="hinh/giamgia.png">
+      <publishTime>10/13/2018 14:01:06</publishTime>
+    </File>
+    <File Include="hinh/giamgia11.PNG">
+      <publishTime>11/24/2018 23:02:38</publishTime>
+    </File>
+    <File Include="hinh/gmail.png">
+      <publishTime>09/25/2018 21:31:24</publishTime>
+    </File>
+    <File Include="hinh/google-plus.png">
+      <publishTime>09/25/2018 21:31:24</publishTime>
+    </File>
+    <File Include="hinh/home.png">
+      <publishTime>09/25/2018 21:31:24</publishTime>
+    </File>
+    <File Include="hinh/images.png">
+      <publishTime>11/24/2018 23:02:04</publishTime>
+    </File>
+    <File Include="hinh/login %282%29.png">
+      <publishTime>10/10/2018 07:43:07</publishTime>
+    </File>
+    <File Include="hinh/logo11.png">
+      <publishTime>09/25/2018 21:31:24</publishTime>
+    </File>
+    <File Include="hinh/map.png">
+      <publishTime>09/25/2018 21:31:24</publishTime>
+    </File>
+    <File Include="hinh/messenger.png">
+      <publishTime>11/24/2018 23:02:23</publishTime>
+    </File>
+    <File Include="hinh/phone.png">
+      <publishTime>09/25/2018 21:31:24</publishTime>
+    </File>
+    <File Include="hinh/sakos.png">
+      <publishTime>11/24/2018 23:02:15</publishTime>
+    </File>
+    <File Include="hinh/sbv108dn__2__large.jpg">
+      <publishTime>09/25/2018 21:31:25</publishTime>
+    </File>
+    <File Include="hinh/sbv115dg__3__large.jpg">
+      <publishTime>09/25/2018 21:31:25</publishTime>
+    </File>
+    <File Include="hinh/sbv118bk__2__large.jpg">
+      <publishTime>09/25/2018 21:31:25</publishTime>
+    </File>
+    <File Include="hinh/sbv120bk__2__large.jpg">
+      <publishTime>09/25/2018 21:31:25</publishTime>
+    </File>
+    <File Include="hinh/sbv122dn__3__large.jpg">
+      <publishTime>09/25/2018 21:31:25</publishTime>
+    </File>
+    <File Include="hinh/search.png">
+      <publishTime>09/25/2018 21:31:25</publishTime>
+    </File>
+    <File Include="hinh/shopping-cart %281%29.png">
+      <publishTime>11/24/2018 23:04:06</publishTime>
+    </File>
+    <File Include="hinh/ss.PNG">
+      <publishTime>09/25/2018 21:31:25</publishTime>
+    </File>
+    <File Include="hinh/TienIchMayTinh.Com__Windows Spotlight [178].jpg">
+      <publishTime>10/12/2018 16:04:57</publishTime>
+    </File>
+    <File Include="hinh/twitter.png">
+      <publishTime>09/25/2018 21:31:25</publishTime>
+    </File>
+    <File Include="hinh/Untitled-1.png">
+      <publishTime>09/25/2018 21:31:25</publishTime>
+    </File>
+    <File Include="hinh/user-icon-png-pnglogocom.png">
+      <publishTime>11/24/2018 23:00:15</publishTime>
+    </File>
+    <File Include="hinh/user.png">
+      <publishTime>09/25/2018 21:31:25</publishTime>
+    </File>
+    <File Include="hinh/wa8LCcAiVlYHCgsmCqMar4nx4v5vBuThtyZ5LTjZglE.png">
+      <publishTime>09/25/2018 21:31:25</publishTime>
+    </File>
+    <File Include="hinh/whatsapp.png">
+      <publishTime>10/03/2018 12:58:46</publishTime>
+    </File>
+    <File Include="hinh/youtube.png">
+      <publishTime>09/25/2018 21:31:25</publishTime>
+    </File>
+    <File Include="Models/data.edmx.diagram">
+      <publishTime>10/05/2018 00:58:32</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>09/25/2018 21:18:50</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>09/25/2018 21:18:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>09/25/2018 21:18:53</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>09/25/2018 21:18:53</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>09/25/2018 21:18:53</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>09/25/2018 21:18:58</publishTime>
+    </File>
+    <File Include="Views/giohang/giohang.cshtml">
+      <publishTime>11/24/2018 21:39:06</publishTime>
+    </File>
+    <File Include="Views/giohang/giohangpartial.cshtml">
+      <publishTime>11/24/2018 21:40:09</publishTime>
+    </File>
+    <File Include="Views/giohang/suagiohang.cshtml">
+      <publishTime>11/24/2018 21:40:45</publishTime>
+    </File>
+    <File Include="Views/Home/balolaptop.cshtml">
+      <publishTime>11/24/2018 21:41:30</publishTime>
+    </File>
+    <File Include="Views/Home/balomoipartial.cshtml">
+      <publishTime>11/24/2018 21:41:52</publishTime>
+    </File>
+    <File Include="Views/Home/balothethao.cshtml">
+      <publishTime>11/24/2018 23:53:41</publishTime>
+    </File>
+    <File Include="Views/Home/balothoitrang.cshtml">
+      <publishTime>11/24/2018 21:42:29</publishTime>
+    </File>
+    <File Include="Views/Home/gioithieu.cshtml">
+      <publishTime>11/24/2018 21:42:41</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>11/24/2018 21:42:52</publishTime>
+    </File>
+    <File Include="Views/Home/Sua.cshtml">
+      <publishTime>11/25/2018 00:35:08</publishTime>
+    </File>
+    <File Include="Views/Home/ThongTinNguoiDung.cshtml">
+      <publishTime>11/25/2018 00:10:45</publishTime>
+    </File>
+    <File Include="Views/Home/timkiem.cshtml">
+      <publishTime>11/24/2018 21:43:10</publishTime>
+    </File>
+    <File Include="Views/Home/tuixach.cshtml">
+      <publishTime>11/24/2018 21:43:20</publishTime>
+    </File>
+    <File Include="Views/Home/xemchitiet.cshtml">
+      <publishTime>11/24/2018 21:43:29</publishTime>
+    </File>
+    <File Include="Views/nguoidung/dangky.cshtml">
+      <publishTime>11/25/2018 00:34:52</publishTime>
+    </File>
+    <File Include="Views/nguoidung/dangnhap.cshtml">
+      <publishTime>11/24/2018 23:08:44</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>11/25/2018 00:00:14</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>09/25/2018 21:14:53</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>09/25/2018 21:18:34</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/25/2018 13:10:24</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

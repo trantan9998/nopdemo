@@ -1,0 +1,33 @@
+﻿body {
+    font-family: 'Times New Roman';
+    margin: 0;
+}
+
+
+.cuoitrang {
+    /*margin-top: 1150px;*/
+    height: 520px;
+    width: 100%;
+    color: aliceblue;
+    background-image: url('../hinh/bg-1.jpg');
+}
+
+    .cuoitrang .cuoitrangA {
+        margin-left: 60px;
+        float: left;
+        padding: 2px;
+    }
+
+    .cuoitrang .cuoitrangB {
+        padding: 2px;
+        float: left;
+        margin-top: 135px;
+        margin-left: 50px;
+    }
+
+    .cuoitrang .cuoitrangC {
+        margin-right: 60px;
+        padding: 2px;
+        float: right;
+        margin-top: 135px;
+    }

@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>ĐĂNG NHẬP ADMIN</title>
+    <link href="~/Content/dangnhap.css" rel="stylesheet" />
+</head>
+<body>
+    @{
+        ViewBag.Title = "ĐĂNG NHẬP";
+        Layout = "~/Areas/adminbalo/Views/Shared/_Layout.cshtml";
+
+    }
+    @using (@Html.BeginForm())
+    {
+        <center>
+            <div class="dangnhap" style="background-image: url('../../../../hinh/wa8LCcAiVlYHCgsmCqMar4nx4v5vBuThtyZ5LTjZglE.png'); width: 450px; height: 560px;">
+
+                <img src="~/hinh/logo11.png" style="width:260px;height:90px">
+                <br />
+                <b>ADMIN</b>
+                <br /><br />
+                <div style="opacity:0.6;background-color:gainsboro;height:40px;border-radius:50px;padding:5px;width:60%;">
+                    @Html.TextBox("txttaikhoan", "", htmlAttributes: new { @placeholder = "Tên Đăng Nhập..." })
+                </div>
+                <br />
+                <div style="opacity:0.6;background-color:gainsboro;height:40px;border-radius:50px;padding:5px;width:60%;">
+                    @Html.Password("txtmatkhau", "", htmlAttributes: new { @placeholder = "Mật khẩu..." })
+                </div>
+                <br />
+                <div class="dangnhapAA">
+                    <input type="submit" id=" btnsubmit" name="btnsubmit" value="ĐĂNG NHẬP" style="margin-top:20px;background-color:aliceblue;opacity:0.8;border-radius:10px;width:150px;height:40px;font-size:20px;">
+                </div>
+                <br />
+                <h3 style="color:navy">@ViewBag.thongbao</h3>
+                <h3 style="color:red">@ViewBag.thongbao1</h3>
+                <br />
+                <div class="quaylai" style="height:40px;">
+                    <a href="~/Home/Index" style="color:white">🔙QUAY LẠI</a>
+                </div>
+
+            </div>
+        </center>
+    }
+</body>
+</html>

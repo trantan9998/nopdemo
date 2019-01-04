@@ -1,0 +1,48 @@
+﻿body {
+    font-family: 'Times New Roman';
+    margin: 0;
+    padding: 0;
+    background-color: ghostwhite;
+}
+
+.chitiesp {
+    color: black;
+    margin-top: 60px;
+    font-size: 25px;
+}
+
+.anhbiact img {
+    height: 400px;
+    width: 400px;
+    border-radius: 70%;
+    float: left;
+    margin-left: 20px;
+}
+
+.masp {
+    color: red;
+    float: right;
+}
+
+.tenbalo {
+    color: darkred;
+    font-size: 50px;
+    text-align: center;
+}
+
+.soluong {
+    text-align: center;
+}
+
+.mota {
+    padding: 80px;
+    text-align: left;
+}
+
+.ngaydang {
+    float: right
+}
+
+.nhasx {
+    text-align: center;
+}

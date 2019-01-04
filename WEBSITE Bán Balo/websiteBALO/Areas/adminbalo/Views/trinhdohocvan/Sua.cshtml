@@ -1,0 +1,68 @@
+﻿@model websiteBALO.Models.SANPHAM
+
+@{
+    ViewBag.Title = "SỬA";
+    Layout = "~/Areas/adminbalo/Views/Shared/Adminlayout.cshtml";
+}
+
+<center style="color:darkblue"><h2><b>👨‍🎓SỬA THÔNG TIN SẢN PHẨM</b></h2></center><hr />
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal" style="font-size:20px;margin-left:24px;color:black;font-family:'Times New Roman';background-color:ghostwhite;text-align:right;width:800px;">
+
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.Mabalo)
+
+            @Html.LabelFor(model => model.Tenbalo, htmlAttributes: new { @class = "control-label col-md-2" })
+                @Html.EditorFor(model => model.Tenbalo, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Tenbalo, "", new { @class = "text-danger" })
+        <br /><br />
+        
+            @Html.LabelFor(model => model.giaban, htmlAttributes: new { @class = "control-label col-md-2" })
+                @Html.EditorFor(model => model.giaban, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.giaban, "", new { @class = "text-danger" })
+        <br /><br />
+            @Html.LabelFor(model => model.mota, htmlAttributes: new { @class = "control-label col-md-2" })
+                @Html.EditorFor(model => model.mota, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.mota, "", new { @class = "text-danger" })
+        <br /><br />
+            @Html.LabelFor(model => model.banbia, htmlAttributes: new { @class = "control-label col-md-2" })
+                @Html.EditorFor(model => model.banbia, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.banbia, "", new { @class = "text-danger" })
+                  <br /><br />
+
+            @Html.LabelFor(model => model.ngaycapnhap, htmlAttributes: new { @class = "control-label col-md-2" })
+                @Html.EditorFor(model => model.ngaycapnhap, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.ngaycapnhap, "", new { @class = "text-danger" })
+                          <br /><br />
+
+
+            @Html.LabelFor(model => model.soluongton, htmlAttributes: new { @class = "control-label col-md-2" })
+                @Html.EditorFor(model => model.soluongton, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.soluongton, "", new { @class = "text-danger" })
+                           <br /><br />
+
+
+            @Html.LabelFor(model => model.maNSX, htmlAttributes: new { @class = "control-label col-md-2" })
+                @Html.DropDownList("MaNSX")
+
+                          <br /><br />
+
+
+            @Html.LabelFor(model => model.machude, new { @class = "control-label col-md-2" })
+                @Html.DropDownList("Machude")
+           <br /><br />
+        <div style="font-size:15px;float:right">
+            <div >
+               <input type="submit" value="CẬP NHẬP" style="background-color:cadetblue;color:aliceblue;font-size:30px;">
+            </div>
+        </div>
+    </div>
+}
+
+<div style="margin-left:100px;font-size:30px">
+    @Html.ActionLink("⏪ Quay lại", "Adquanlysanpham", "Home")
+</div>

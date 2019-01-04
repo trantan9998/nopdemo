@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="websitebaloModelStoreContainer" CdmEntityContainer="websitebaloEntities1">
+    <EntitySetMapping Name="CHITIETDONHANGs">
+      <EntityTypeMapping TypeName="websitebaloModel.CHITIETDONHANG">
+        <MappingFragment StoreEntitySet="CHITIETDONHANG">
+          <ScalarProperty Name="madonhang" ColumnName="madonhang" />
+          <ScalarProperty Name="Mabalo" ColumnName="Mabalo" />
+          <ScalarProperty Name="soluong" ColumnName="soluong" />
+          <ScalarProperty Name="dongia" ColumnName="dongia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CHUDEs">
+      <EntityTypeMapping TypeName="websitebaloModel.CHUDE">
+        <MappingFragment StoreEntitySet="CHUDE">
+          <ScalarProperty Name="machude" ColumnName="machude" />
+          <ScalarProperty Name="tenchude" ColumnName="tenchude" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DONHANGs">
+      <EntityTypeMapping TypeName="websitebaloModel.DONHANG">
+        <MappingFragment StoreEntitySet="DONHANG">
+          <ScalarProperty Name="madonhang" ColumnName="madonhang" />
+          <ScalarProperty Name="dathanhtoan" ColumnName="dathanhtoan" />
+          <ScalarProperty Name="tinhtranggiaohang" ColumnName="tinhtranggiaohang" />
+          <ScalarProperty Name="ngaydat" ColumnName="ngaydat" />
+          <ScalarProperty Name="ngaygiao" ColumnName="ngaygiao" />
+          <ScalarProperty Name="maKH" ColumnName="maKH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KHACHHANGs">
+      <EntityTypeMapping TypeName="websitebaloModel.KHACHHANG">
+        <MappingFragment StoreEntitySet="KHACHHANG">
+          <ScalarProperty Name="maKH" ColumnName="maKH" />
+          <ScalarProperty Name="hoten" ColumnName="hoten" />
+          <ScalarProperty Name="taikhoan" ColumnName="taikhoan" />
+          <ScalarProperty Name="matkhau" ColumnName="matkhau" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="diachi" ColumnName="diachi" />
+          <ScalarProperty Name="dienthoai" ColumnName="dienthoai" />
+          <ScalarProperty Name="gioitinh" ColumnName="gioitinh" />
+          <ScalarProperty Name="ngaysinh" ColumnName="ngaysinh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NHASANXUATs">
+      <EntityTypeMapping TypeName="websitebaloModel.NHASANXUAT">
+        <MappingFragment StoreEntitySet="NHASANXUAT">
+          <ScalarProperty Name="maNSX" ColumnName="maNSX" />
+          <ScalarProperty Name="tenNSX" ColumnName="tenNSX" />
+          <ScalarProperty Name="diachi" ColumnName="diachi" />
+          <ScalarProperty Name="dienthoai" ColumnName="dienthoai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SANPHAMs">
+      <EntityTypeMapping TypeName="websitebaloModel.SANPHAM">
+        <MappingFragment StoreEntitySet="SANPHAM">
+          <ScalarProperty Name="Mabalo" ColumnName="Mabalo" />
+          <ScalarProperty Name="Tenbalo" ColumnName="Tenbalo" />
+          <ScalarProperty Name="giaban" ColumnName="giaban" />
+          <ScalarProperty Name="mota" ColumnName="mota" />
+          <ScalarProperty Name="banbia" ColumnName="banbia" />
+          <ScalarProperty Name="ngaycapnhap" ColumnName="ngaycapnhap" />
+          <ScalarProperty Name="soluongton" ColumnName="soluongton" />
+          <ScalarProperty Name="maNSX" ColumnName="maNSX" />
+          <ScalarProperty Name="machude" ColumnName="machude" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="websitebaloModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="THAMGIAs">
+      <EntityTypeMapping TypeName="websitebaloModel.THAMGIA">
+        <MappingFragment StoreEntitySet="THAMGIA">
+          <ScalarProperty Name="Mabalo" ColumnName="Mabalo" />
+          <ScalarProperty Name="MaTH" ColumnName="MaTH" />
+          <ScalarProperty Name="vaitro" ColumnName="vaitro" />
+          <ScalarProperty Name="vitri" ColumnName="vitri" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="THUONGHIEUSPs">
+      <EntityTypeMapping TypeName="websitebaloModel.THUONGHIEUSP">
+        <MappingFragment StoreEntitySet="THUONGHIEUSP">
+          <ScalarProperty Name="MaTH" ColumnName="MaTH" />
+          <ScalarProperty Name="TenTH" ColumnName="TenTH" />
+          <ScalarProperty Name="xuatxu" ColumnName="xuatxu" />
+          <ScalarProperty Name="diachi" ColumnName="diachi" />
+          <ScalarProperty Name="dienthoai" ColumnName="dienthoai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

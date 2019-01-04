@@ -1,0 +1,58 @@
+﻿@model IEnumerable<websiteBALO.Models.DONHANG>
+
+@{
+    ViewBag.Title = "ĐƠN HÀNG";
+    Layout = "~/Areas/adminbalo/Views/Shared/Adminlayout.cshtml";
+}
+<center style="color:darkblue;font-family:'Times New Roman';">
+    <h1><b>👨‍🎓ĐƠN HÀNG</h1></b>
+    <h2>📖</h2>
+</center>
+<br />
+<button style="font-size:20px;width:330px;background-color:white;margin-left:30px;"><a href="@Url.Action("chitietdonhang","khachhang")" style="color:darkblue;">CHI TIẾT CÁC ĐƠN HÀNG</a></button>
+<button style="background-color:white;font-size:20px;color:darkblue;width:200px;margin-left:30px;">
+    <a href="@Url.Action("XuatFileExceldonhang","khachhang")">
+        XUẤT ĐƠN HÀNG
+    </a>
+</button>
+<br /><br />
+<table class="table" border="1" style="font-size:17px;color:black;font-family:'Times New Roman';background-color:white;float:right;width:1170px">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.maKH)
+        </th>
+        <th>
+            Tài khoản
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.madonhang)
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => model.ngaydat)
+        </th>
+
+
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.maKH)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.KHACHHANG.taikhoan)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.madonhang)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.ngaydat)
+            </td>
+
+        </tr>
+    }
+
+</table>

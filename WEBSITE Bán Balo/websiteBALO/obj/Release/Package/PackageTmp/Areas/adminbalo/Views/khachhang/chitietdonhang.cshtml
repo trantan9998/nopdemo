@@ -1,0 +1,85 @@
+﻿@model IEnumerable<websiteBALO.Models.CHITIETDONHANG>
+
+@{
+    ViewBag.Title = "CHI TIẾT ĐƠN HÀNG";
+    Layout = "~/Areas/adminbalo/Views/Shared/Adminlayout.cshtml";
+}
+
+<center style="color:darkblue">
+    <h1><b>👨‍🎓CHI TIẾT ĐƠN HÀNG</h1></b>
+    <h2>📖</h2>
+</center>
+<button style="background-color:white;font-size:20px;color:darkblue;width:200px;margin-left:30px;">
+    <a href="@Url.Action("donhang","khachhang")">
+        ↩QUAY LẠI
+    </a>
+</button>
+<button style="background-color:white;font-size:20px;color:darkblue;width:200px;margin-left:30px;">
+    <a href="@Url.Action("XuatFileExcel","khachhang")">
+        XUẤT FILE
+    </a>
+</button>
+<br /><br />
+<table class="table" border="1" style="font-size:17px;color:black;font-family:'Times New Roman';background-color:white;width:1100px;margin-left:30px">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.DONHANG.maKH)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DONHANG.KHACHHANG.hoten)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DONHANG.KHACHHANG.diachi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DONHANG.KHACHHANG.dienthoai)
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => model.madonhang)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Mabalo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.soluong)
+        </th>
+        <th>
+            giá bán
+        </th>
+
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DONHANG.maKH)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DONHANG.KHACHHANG.hoten)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DONHANG.KHACHHANG.diachi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DONHANG.KHACHHANG.dienthoai)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.madonhang)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Mabalo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.soluong)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.SANPHAM.giaban) VND
+            </td>
+
+        </tr>
+    }
+
+</table>

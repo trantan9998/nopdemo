@@ -1,0 +1,173 @@
+﻿@using websiteBALO.Models;
+@{
+    ViewBag.Title = "tuixach";
+    Layout = "~/Areas/adminbalo/Views/Shared/_Layout.cshtml";
+    websitebaloEntities1 db = new websitebaloEntities1();
+    var balothoitrang = (from a in db.SANPHAMs where a.machude == 5 select a).ToList();
+}
+
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>BALO</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="~/Content/menu.css" rel="stylesheet" />
+    <link href="~/Content/cuoitrang.css" rel="stylesheet" />
+    <link href="~/Content/css.css" rel="stylesheet" />
+    <link href="~/Content/timkiem.css" rel="stylesheet" />
+    <link href="~/Content/balopartial.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="top">
+        <a class="location"><img src="~/hinh/map.png" style="height: 20px;width: 20px;"><b>Thủ Dầu Một,Bình Dương</b></a>
+        <a class="phone">
+            <img src="~/hinh/phone.png" style="height: 20px;width: 20px;"><b>
+                HOLINE:0966375505
+            </b>
+        </a>
+        <div class="dangnhapdangky">
+            @{
+
+                if (Session["taikhoan"] == null)
+                {
+                    <img src="~/hinh/login (2).png" style="width:20px;height:13px;">
+                    <a href="@Url.Action("dangnhap","nguoidung")" style="text-decoration:none;">
+                        ĐĂNG NHẬP
+                    </a>
+                    <a href="@Url.Action("dangky","nguoidung")" style="background-color:orangered;text-decoration:none;">
+                        ĐĂNG KÝ
+                    </a>
+                }
+                else
+                {
+                    <a href="@Url.Action("dangnhap","nguoidung")" style="text-decoration:none;">
+                        <font color="#BAEDED">
+                            xin chào bạn:
+                        </font>@Session["taikhoan"]
+                    </a>
+                    @Html.ActionLink("Thoát", "dangxuat", "nguoidung")
+                }
+            }
+        </div>
+    </div>
+    <div class="logo">
+        <div class="logo1">
+            <img src="~/hinh/logo11.png" />
+        </div>
+        <a href="@Url.Action("giohang","giohang")" style="font-size:38px;float:right;text-decoration:none;margin-top:16px;">@Html.Action("giohangpartial", "giohang")</a>
+        <div class="timkiem">
+            @using (Html.BeginForm("timkiem", "Home", FormMethod.Get))
+            {
+                @Html.TextBox("timkiem", "", htmlAttributes: new { @placeholder = "Nhập từ khóa cần tìm kiếm..." })
+                <button>
+                    <img src="~/hinh/search.png" />
+                </button>
+            }
+        </div>
+    </div>
+
+    <div class="menu">
+        <ul>
+            <li><a href="@Url.Action("Index","Home")"><b>🏠TRANG CHỦ</b></a></li>
+            <li>
+                <a href="#"><b>🎒BALO</b> </a>
+                <ul class="menucon">
+                    <li><a href="@Url.Action("balolaptop","Home")"><b>BALO LAPTOP</b></a></li>
+                    <hr />
+                    <li><a href="@Url.Action("balothoitrang","Home")"><b>BALO THỜI TRANG</b></a></li>
+                    <hr />
+                    <li><a href="@Url.Action("balothethao","Home")"><b>BALO THỂ THAO</b></a></li>
+                    <hr />
+
+                </ul>
+            </li>
+            <li>
+                <a href="@Url.Action("tuixach","Home")"><b>👜CẶP</b></a>
+
+            </li>
+
+            <li>
+                <a href="@Url.Action("gioithieu","Home")"><b>☎LIÊN HỆ</b></a>
+            </li>
+        </ul>
+
+    </div>
+    <br />
+    <center>
+        <div>
+            <img src="~/hinh/bg-balo-1.jpg" style="width:1000px;height:350px;">
+        </div>
+    </center>
+    <br />
+    <marquee direction=”right” behavior=”slide” scrollamount=”300″ style="color:darkorange;font-size:28px;background-color:darkslategrey;">CHÚNG TÔI TỰ HÀO VỚI NHỮNG SẢN PHẨM HÀNG ĐẦU TRONG NGHÀNH THỜI TRANG CŨNG NHƯ VỀ CHẤT LƯỢNG CỦA MỖI SẢN PHẨM </marquee>
+
+    <center>
+        <img src="~/hinh/ss.PNG" style="width:100%">
+    </center>
+
+    <h2 style="margin-top:100px;background-color:lightskyblue;padding:20px;width:350px;color:aliceblue;height:60px;border-top-right-radius:100%;border-bottom-right-radius:100%"><b>BALO THỜI TRANG</b></h2><br /><br />
+
+    @model List<SANPHAM>
+    @{
+        foreach (var item in balothoitrang)
+        {
+            <div style="animation: fadeInLeft forwards 2s">
+                <div class="sanpham">
+                    <div class="header1">
+                        <center>
+                            <a href="@Url.Action("xemchitiet",new { @mabalo=item.Mabalo})">
+                                <img src="@Url.Content("~/hinh/balolaptop/" + item.banbia)"><br /><br />
+                                <strong> @item.Tenbalo </strong><br /><br />
+                                <p><strong>GIÁ:<font color="red">@string.Format("{0:0,0}", item.giaban)VND</font></strong></p><br />
+                                <font color="black">
+                                    <b>Xem chi tiết</b>
+                                </font>
+                                <br /><br />
+                                @item.NHASANXUAT.diachi
+                            </a>
+                        </center>
+                        <br />
+                        <br />
+                    </div>
+                </div>
+            </div>
+        }
+    }
+    <div class="cuoitrang" style="margin-top:650px; ">
+        <div class="cuoitrangA">
+            <br />
+            <img src="~/hinh/logo11.png" style="width:270px;height:90px;background-color:aliceblue "><br /><br /><hr /><br>
+            <h3>HỆ THỐNG CỬA HÀNG </h3><br />
+            <h4>WEBSITE CHÍNH: BALONEO.COM</h4><br />
+            <h4>ĐỊA CHỈ:Đ.Trần Văn Ơn,P.Phú Hòa,TP.Thủ Dầu Một,T.Bình Dương</h4><br />
+            <h4> KẾT NỐI VỚI CHÚNG TÔI QUA:</h4><br />
+            <img src="~/hinh/facebook.png" />
+            <img src="~/hinh/youtube.png" />
+            <img src="~/hinh/gmail.png" />
+        </div>
+        <div class="cuoitrangC">
+            <hr /><br />
+            <h3>THÔNG TIN</h3><br />
+            <h4><a href="@Url.Action("gioithieu","Home")">Chính sách bảo hành</a></h4><br />
+            <h4><a href="~/adminbalo/khachhang/dangnhapad">TRANG ADMIN</a></h4>
+        </div>
+
+        <div class="cuoitrangB">
+            <hr /><br />
+            <h3>LIÊN HỆ</h3><br />
+            <h4>GỌI MUA HÀNG:0966375505</h4><br />
+            <h4>GÓP Ý KHIẾU NẠI:0966375505</h4><br />
+            <h4>EMAIL:TRANTAN598497@GMAIL.COM</h4> <br />
+        </div>
+        <div>
+            <img src="~/hinh/footer-fortune-technology-india.png" style="width:100%;">
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,96 @@
+﻿@model websiteBALO.Models.SANPHAM
+
+@{
+    ViewBag.Title = "XÓA";
+    Layout = "~/Areas/adminbalo/Views/Shared/Adminlayout.cshtml";
+}
+
+<center style="color:orangered;"><h2><b>🔴BẠN CÓ CHẮC CHẮN XÓA SẢN PHẨM HIỆN TẠI KHÔNG!</b></h2></center>
+
+
+<div>
+    <hr />
+    @*
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Tenbalo)
+
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Tenbalo)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.giaban)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.giaban)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.mota)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.mota)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.banbia)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.banbia)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.ngaycapnhap)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.ngaycapnhap)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.soluongton)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.soluongton)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.CHUDE.tenchude)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.CHUDE.tenchude)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.NHASANXUAT.tenNSX)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.NHASANXUAT.tenNSX)
+            </dd>
+
+        </dl>*@
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        <center>
+            <div class="form-actions no-color">
+                <input type="submit" value="XÓA SẢN PHẨM" style="background-color:cadetblue;color:aliceblue;font-size:34px;" />
+            </div>
+        </center>
+    }
+
+</div>
+
+<div style="margin-left:100px;font-size:32px;margin-top:500px;">
+    @Html.ActionLink("⏪ Quay lại", "Adquanlysanpham", "Home")
+</div>

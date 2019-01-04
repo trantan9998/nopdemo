@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="499ecc41978541a7bb229d4639212e4f" Name="Diagram1">
+        <EntityTypeShape EntityType="websitebaloModel.CHITIETDONHANG" Width="1.5" PointX="5.25" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="websitebaloModel.ChiTietLuong" Width="1.5" PointX="5.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="websitebaloModel.CHUDE" Width="1.5" PointX="0.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="websitebaloModel.DONHANG" Width="1.5" PointX="3" PointY="21.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="websitebaloModel.KHACHHANG" Width="1.5" PointX="0.75" PointY="21.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="websitebaloModel.LUONG" Width="1.5" PointX="3" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="websitebaloModel.NHANVIEN" Width="1.5" PointX="0.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="websitebaloModel.NHASANXUAT" Width="1.5" PointX="0.75" PointY="17.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="websitebaloModel.PHONGBAN" Width="1.5" PointX="1.5" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="websitebaloModel.SANPHAM" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="websitebaloModel.THUONGHIEUSP" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="websitebaloModel.TRINHDOHOCVAN" Width="1.5" PointX="1.5" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="websitebaloModel.User" Width="1.5" PointX="3" PointY="25.75" IsExpanded="true" />
+        <AssociationConnector Association="websitebaloModel.FK_CHITIETDONHANG_DONHANG" ManuallyRouted="false" />
+        <AssociationConnector Association="websitebaloModel.FK_CHITIETDONHANG_DONHANG2" ManuallyRouted="false" />
+        <AssociationConnector Association="websitebaloModel.FK_CHITIETDONHANG_SANPHAM" ManuallyRouted="false" />
+        <AssociationConnector Association="websitebaloModel.FK_SANPHAM_CHUDE" ManuallyRouted="false" />
+        <AssociationConnector Association="websitebaloModel.FK_SANPHAM_CHUDE1" ManuallyRouted="false" />
+        <AssociationConnector Association="websitebaloModel.FK_DONHANG_KHACHHANG" ManuallyRouted="false" />
+        <AssociationConnector Association="websitebaloModel.FK_LUONG_NHANVIEN" ManuallyRouted="false" />
+        <AssociationConnector Association="websitebaloModel.FK_NHANVIEN_PHONGBAN" ManuallyRouted="false" />
+        <AssociationConnector Association="websitebaloModel.FK_NHANVIEN_TRINHDOHOCVAN" ManuallyRouted="false" />
+        <AssociationConnector Association="websitebaloModel.FK_SANPHAM_NHANVIEN" ManuallyRouted="false" />
+        <AssociationConnector Association="websitebaloModel.FK_User_NHANVIEN" ManuallyRouted="false" />
+        <AssociationConnector Association="websitebaloModel.FK_SANPHAM_NHASANXUAT" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

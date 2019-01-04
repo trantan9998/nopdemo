@@ -1,0 +1,60 @@
+﻿@model websiteBALO.Models.KHACHHANG
+
+@{
+    ViewBag.Title = "ThongTinNguoiDung";
+}
+
+<html>
+<head>
+</head>
+<body style="background-image: url('../../hinh/11.jpg');">
+    <center><h1 style="background-color:white;width:700px;height:40px;padding:10px;border-radius:30%"> VUI LÒNG XÁC NHẬN LẠI THÔNG TIN</h1></center>
+    <div style="margin-left: 340px;width: 530px;height: 430px;color:aliceblue">
+        <hr />
+        <dl class="dl-horizontal" style="font-size:26px; margin-left:120px;">
+            
+                @Html.DisplayNameFor(model => model.hoten):
+          
+                @Html.DisplayFor(model => model.hoten)
+            
+            <br /><br />
+           
+
+            
+                @Html.DisplayNameFor(model => model.taikhoan):
+            
+                @Html.DisplayFor(model => model.taikhoan)
+           <br /><br />
+           
+          
+                @Html.DisplayNameFor(model => model.email):
+            
+            
+                @Html.DisplayFor(model => model.email)
+            <br /><br />
+           
+            
+                @Html.DisplayNameFor(model => model.diachi):
+            
+          
+                @Html.DisplayFor(model => model.diachi)
+            <br /><br />
+          
+            
+                @Html.DisplayNameFor(model => model.dienthoai):
+
+          
+                @Html.DisplayFor(model => model.dienthoai)
+          
+        </dl>
+    </div>
+    <div style="margin-top:-50px;">
+        @using (Html.BeginForm("dathang", "giohang"))
+        {
+            <center> <input type="submit" value="🚚 ĐẶT HÀNG" style="font-size:30px;border-radius:10%;color:orangered;width:500px;background-color:lavender;"></center>
+            <button style="background-image: url('../../hinh/Blue-Blur-Background1.jpg');font-size:30px;border-top-left-radius:20px;float:right;"><a href="@Url.Action("Index","Home")">TIẾP TỤC MUA SẮM 🛒</a></button>
+            <button style="background-image: url('../../hinh/Blue-Blur-Background1.jpg');font-size:30px;border-top-right-radius:20px;float:left;"><a href="@Url.Action("Sua", new { @ID = Model.maKH})">SỬA THÔNG TIN 📃</a></button>
+        }
+    </div>
+</body>
+</html>

@@ -1,0 +1,71 @@
+﻿@model IEnumerable<websiteBALO.Models.NHANVIEN>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/adminbalo/Views/Shared/Adminlayout.cshtml";
+}
+
+<h2  style="margin-left:24px">Index</h2>
+
+<p style="font-size:20px;margin-left:24px">
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table" style="font-size:20px;margin-left:24px;color:black;font-family:'Times New Roman';text-align:center;width:1000px;border:1px solid black">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Ho)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Ten)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NgaySinh)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.QueQuan)
+        </th>
+    
+        <th>
+            @Html.DisplayNameFor(model => model.PHONGBAN.TenPhongBan)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TRINHDOHOCVAN.TenTDHV)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ho)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ten)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NgaySinh)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.QueQuan)
+        </td>
+        @*<td>
+            @Html.DisplayFor(modelItem => item.created_at)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.updated_at)
+        </td>*@
+        <td>
+            @Html.DisplayFor(modelItem => item.PHONGBAN.TenPhongBan)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TRINHDOHOCVAN.TenTDHV)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.MaNV }) |
+          
+            @Html.ActionLink("Delete", "Delete", new { id=item.MaNV })
+        </td>
+    </tr>
+}
+
+</table>

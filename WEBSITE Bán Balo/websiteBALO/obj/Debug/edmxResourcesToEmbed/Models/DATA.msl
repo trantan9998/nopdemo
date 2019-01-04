@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="websitebaloModelStoreContainer" CdmEntityContainer="websitebaloEntities1">
+    <EntitySetMapping Name="CHITIETDONHANGs">
+      <EntityTypeMapping TypeName="websitebaloModel.CHITIETDONHANG">
+        <MappingFragment StoreEntitySet="CHITIETDONHANG">
+          <ScalarProperty Name="madonhang" ColumnName="madonhang" />
+          <ScalarProperty Name="Mabalo" ColumnName="Mabalo" />
+          <ScalarProperty Name="soluong" ColumnName="soluong" />
+          <ScalarProperty Name="dongia" ColumnName="dongia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ChiTietLuongs">
+      <EntityTypeMapping TypeName="websitebaloModel.ChiTietLuong">
+        <MappingFragment StoreEntitySet="ChiTietLuong">
+          <ScalarProperty Name="MaChiTietBangLuong" ColumnName="MaChiTietBangLuong" />
+          <ScalarProperty Name="NhanVien_MNV" ColumnName="NhanVien_MNV" />
+          <ScalarProperty Name="Luong_MaLuong" ColumnName="Luong_MaLuong" />
+          <ScalarProperty Name="LuongCoBan" ColumnName="LuongCoBan" />
+          <ScalarProperty Name="BHXH" ColumnName="BHXH" />
+          <ScalarProperty Name="BHYT" ColumnName="BHYT" />
+          <ScalarProperty Name="BHTN" ColumnName="BHTN" />
+          <ScalarProperty Name="PhuCap" ColumnName="PhuCap" />
+          <ScalarProperty Name="TienThuong" ColumnName="TienThuong" />
+          <ScalarProperty Name="TienPhat" ColumnName="TienPhat" />
+          <ScalarProperty Name="NgayNhanLuong" ColumnName="NgayNhanLuong" />
+          <ScalarProperty Name="TongTienLuong" ColumnName="TongTienLuong" />
+          <ScalarProperty Name="SoNgayDiLam" ColumnName="SoNgayDiLam" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CHUDEs">
+      <EntityTypeMapping TypeName="websitebaloModel.CHUDE">
+        <MappingFragment StoreEntitySet="CHUDE">
+          <ScalarProperty Name="machude" ColumnName="machude" />
+          <ScalarProperty Name="tenchude" ColumnName="tenchude" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DONHANGs">
+      <EntityTypeMapping TypeName="websitebaloModel.DONHANG">
+        <MappingFragment StoreEntitySet="DONHANG">
+          <ScalarProperty Name="madonhang" ColumnName="madonhang" />
+          <ScalarProperty Name="dathanhtoan" ColumnName="dathanhtoan" />
+          <ScalarProperty Name="tinhtranggiaohang" ColumnName="tinhtranggiaohang" />
+          <ScalarProperty Name="ngaydat" ColumnName="ngaydat" />
+          <ScalarProperty Name="ngaygiao" ColumnName="ngaygiao" />
+          <ScalarProperty Name="maKH" ColumnName="maKH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KHACHHANGs">
+      <EntityTypeMapping TypeName="websitebaloModel.KHACHHANG">
+        <MappingFragment StoreEntitySet="KHACHHANG">
+          <ScalarProperty Name="maKH" ColumnName="maKH" />
+          <ScalarProperty Name="hoten" ColumnName="hoten" />
+          <ScalarProperty Name="taikhoan" ColumnName="taikhoan" />
+          <ScalarProperty Name="matkhau" ColumnName="matkhau" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="diachi" ColumnName="diachi" />
+          <ScalarProperty Name="dienthoai" ColumnName="dienthoai" />
+          <ScalarProperty Name="gioitinh" ColumnName="gioitinh" />
+          <ScalarProperty Name="ngaysinh" ColumnName="ngaysinh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LUONGs">
+      <EntityTypeMapping TypeName="websitebaloModel.LUONG">
+        <MappingFragment StoreEntitySet="LUONG">
+          <ScalarProperty Name="MaLuong" ColumnName="MaLuong" />
+          <ScalarProperty Name="LuongToiThieu" ColumnName="LuongToiThieu" />
+          <ScalarProperty Name="HeSoLuong" ColumnName="HeSoLuong" />
+          <ScalarProperty Name="BHXH" ColumnName="BHXH" />
+          <ScalarProperty Name="BHYT" ColumnName="BHYT" />
+          <ScalarProperty Name="BHTN" ColumnName="BHTN" />
+          <ScalarProperty Name="PhuCap" ColumnName="PhuCap" />
+          <ScalarProperty Name="SoNgayDiLam" ColumnName="SoNgayDiLam" />
+          <ScalarProperty Name="created_at" ColumnName="created_at" />
+          <ScalarProperty Name="updated_at" ColumnName="updated_at" />
+          <ScalarProperty Name="NhanVien_MNV" ColumnName="NhanVien_MNV" />
+          <ScalarProperty Name="TongLuong" ColumnName="TongLuong" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NHANVIENs">
+      <EntityTypeMapping TypeName="websitebaloModel.NHANVIEN">
+        <MappingFragment StoreEntitySet="NHANVIEN">
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="Ho" ColumnName="Ho" />
+          <ScalarProperty Name="Ten" ColumnName="Ten" />
+          <ScalarProperty Name="NgaySinh" ColumnName="NgaySinh" />
+          <ScalarProperty Name="QueQuan" ColumnName="QueQuan" />
+          <ScalarProperty Name="created_at" ColumnName="created_at" />
+          <ScalarProperty Name="updated_at" ColumnName="updated_at" />
+          <ScalarProperty Name="TrinhDoHocVan_MTDHV" ColumnName="TrinhDoHocVan_MTDHV" />
+          <ScalarProperty Name="PhongBan_MPB" ColumnName="PhongBan_MPB" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NHASANXUATs">
+      <EntityTypeMapping TypeName="websitebaloModel.NHASANXUAT">
+        <MappingFragment StoreEntitySet="NHASANXUAT">
+          <ScalarProperty Name="maNSX" ColumnName="maNSX" />
+          <ScalarProperty Name="tenNSX" ColumnName="tenNSX" />
+          <ScalarProperty Name="diachi" ColumnName="diachi" />
+          <ScalarProperty Name="dienthoai" ColumnName="dienthoai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PHONGBANs">
+      <EntityTypeMapping TypeName="websitebaloModel.PHONGBAN">
+        <MappingFragment StoreEntitySet="PHONGBAN">
+          <ScalarProperty Name="MaPhongBan" ColumnName="MaPhongBan" />
+          <ScalarProperty Name="TenPhongBan" ColumnName="TenPhongBan" />
+          <ScalarProperty Name="created_at" ColumnName="created_at" />
+          <ScalarProperty Name="updated_at" ColumnName="updated_at" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SANPHAMs">
+      <EntityTypeMapping TypeName="websitebaloModel.SANPHAM">
+        <MappingFragment StoreEntitySet="SANPHAM">
+          <ScalarProperty Name="Mabalo" ColumnName="Mabalo" />
+          <ScalarProperty Name="Tenbalo" ColumnName="Tenbalo" />
+          <ScalarProperty Name="giaban" ColumnName="giaban" />
+          <ScalarProperty Name="mota" ColumnName="mota" />
+          <ScalarProperty Name="banbia" ColumnName="banbia" />
+          <ScalarProperty Name="ngaycapnhap" ColumnName="ngaycapnhap" />
+          <ScalarProperty Name="soluongton" ColumnName="soluongton" />
+          <ScalarProperty Name="maNSX" ColumnName="maNSX" />
+          <ScalarProperty Name="machude" ColumnName="machude" />
+          <ScalarProperty Name="NhanVien_MNV" ColumnName="NhanVien_MNV" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="THUONGHIEUSPs">
+      <EntityTypeMapping TypeName="websitebaloModel.THUONGHIEUSP">
+        <MappingFragment StoreEntitySet="THUONGHIEUSP">
+          <ScalarProperty Name="MaTH" ColumnName="MaTH" />
+          <ScalarProperty Name="TenTH" ColumnName="TenTH" />
+          <ScalarProperty Name="xuatxu" ColumnName="xuatxu" />
+          <ScalarProperty Name="diachi" ColumnName="diachi" />
+          <ScalarProperty Name="dienthoai" ColumnName="dienthoai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TRINHDOHOCVANs">
+      <EntityTypeMapping TypeName="websitebaloModel.TRINHDOHOCVAN">
+        <MappingFragment StoreEntitySet="TRINHDOHOCVAN">
+          <ScalarProperty Name="MaTDHV" ColumnName="MaTDHV" />
+          <ScalarProperty Name="TenTDHV" ColumnName="TenTDHV" />
+          <ScalarProperty Name="created_at" ColumnName="created_at" />
+          <ScalarProperty Name="updated_at" ColumnName="updated_at" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="websitebaloModel.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="MaUser" ColumnName="MaUser" />
+          <ScalarProperty Name="TaiKhoan" ColumnName="TaiKhoan" />
+          <ScalarProperty Name="MatKhau" ColumnName="MatKhau" />
+          <ScalarProperty Name="created_at" ColumnName="created_at" />
+          <ScalarProperty Name="updated_at" ColumnName="updated_at" />
+          <ScalarProperty Name="NhanVien_MNV" ColumnName="NhanVien_MNV" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

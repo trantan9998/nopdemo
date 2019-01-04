@@ -1,0 +1,181 @@
+﻿@using websiteBALO.Models;
+@{
+    ViewBag.Title = "xemchitiet";
+    Layout = "~/Areas/adminbalo/Views/Shared/_Layout.cshtml";
+}
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>BALO</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="~/Content/menu.css" rel="stylesheet" />
+    <link href="~/Content/cuoitrang.css" rel="stylesheet" />
+    <link href="~/Content/css.css" rel="stylesheet" />
+    <link href="~/Content/timkiem.css" rel="stylesheet" />
+
+
+</head>
+<body>
+    <div class="icondienthoai">
+        <a href="#" class="dienthoai"><i><img src="~/hinh/whatsapp.png" style="width:50px;height:50px;" /></i> </a>
+    </div>
+
+    <div class="top" style="font-size:18px;height:45px;padding:10px">
+
+        <a class="location"><img src="~/hinh/map.png" style="height: 20px;width: 20px;"><b>Thủ Dầu Một,Bình Dương</b></a>
+        <a class="phone">
+            <img src="~/hinh/phone.png" style="height: 20px;width: 20px;"><b>
+                HOLINE:0966375505
+            </b>
+        </a>
+
+        <div class="dangnhapdangky">
+            @{
+
+                if (Session["taikhoan"] == null)
+                {
+                    <img src="~/hinh/login (2).png" style="width:20px;height:13px;">
+                    <a href="@Url.Action("dangnhap","nguoidung")" style="text-decoration:none;">
+                        ĐĂNG NHẬP
+                    </a>
+                }
+                else
+                {
+                    <a href="@Url.Action("dangnhap","nguoidung")" style="text-decoration:none;">
+                        <font color="#BAEDED">
+                            xin chào bạn:
+                        </font>@Session["taikhoan"]
+
+                    </a>
+                    @Html.ActionLink("Thoát", "dangxuat", "nguoidung")
+
+                }
+            }
+        </div>
+    </div>
+    <div class="logo">
+        <div class="logo1">
+            <img src="~/hinh/logo11.png" />
+        </div>
+        <a href="#" style="font-size:60px;float:right;text-decoration:none;">🛒</a>
+        <div class="timkiem">
+            @Html.TextBox("txttimkiem", "", htmlAttributes: new { @placeholder = "Nhập từ khóa cần tìm kiếm..." })
+            <button>
+                <img src="~/hinh/search.png" />
+            </button>
+        </div>
+    </div>
+
+    <div class="menu">
+        <ul>
+            <li><a href="@Url.Action("Index","Home")"><b>TRANG CHỦ</b></a></li>
+            <li>
+                <a href="#"><b> BALO</b> </a>
+                <ul class="menucon">
+                    <li><a href="@Url.Action("balolaptop","Home")"><b>BALO LAPTOP</b></a></li>
+                    <hr />
+                    <li><a href="@Url.Action("balothoitrang","Home")"><b>BALO THỜI TRANG</b></a></li>
+                    <hr />
+                    <li><a href="@Url.Action("balothethao","Home")"><b>BALO THỂ THAO</b></a></li>
+                    <hr />
+
+                </ul>
+            </li>
+            <li>
+                <a href="@Url.Action("tuixach","Home")"><b>TÚI XÁCH</b></a>
+
+            </li>
+            <li>
+                <a href="#"><b>THƯƠNG HIỆU</b></a>
+                <ul class="menucon">
+                    <li><a href="#"><b>ADIDAS</b></a></li>
+                    <hr />
+                    <li><a href="#"><b>MIKKOR</b></a></li>
+                    <hr />
+                </ul>
+            </li>
+            <li>
+                <a href="@Url.Action("gioithieu","Home")"><b>GIỚI THIỆU</b></a>
+            </li>
+
+        </ul>
+
+    </div>
+    <marquee direction=”right” behavior=”slide” scrollamount=”300″ style="color:darkorange;font-size:28px;background-color:darkslategrey;">CHÚNG TÔI TỰ HÀO VỚI NHỮNG SẢN PHẨM HÀNG ĐẦU TRONG NGHÀNH THỜI TRANG CŨNG NHƯ VỀ CHẤT LƯỢNG CỦA MỖI SẢN PHẨM </marquee>
+
+    @model List<SANPHAM>
+    &nbsp; &nbsp;<center><h2><b><u>SẢN PHẨM ĐANG NỔI BẬT</u></b></h2></center><br /><br /><hr />
+    @{
+        foreach (var item in Model)
+        {
+            <div>
+                <div class="sanpham">
+                    <div class="header1">
+                        <center>
+                            <a href="@Url.Action("xemchitiet",new { @mabalo=item.Mabalo})">
+                                <img src="@Url.Content("~/hinh/balolaptop/" + item.banbia)"><br /><br />
+                                <strong>TÊN SẢN PHẨM:<br> @item.Tenbalo </strong><br /><br />
+                                <p><strong>GIÁ:<font color="#EE8062">@item.giaban VND</font></strong></p><br />
+                                <font color="#C7D6DF">
+                                    Xem chi tiết
+                                </font>
+                                <br />
+                                <font color="#BAD3ED" style="margin-left:90px">số lượng: @item.soluongton cái</font>
+                            </a>
+                        </center>
+                        <br />
+                        <br />
+                    </div>
+                </div>
+            </div>
+
+        }
+    }
+
+
+    <center>
+        <img src="~/hinh/ss.png" style="width:1490px;">
+    </center><br /><br /><br />
+
+    <br /><br />
+
+    <div class="cuoitrang">
+        <div class="cuoitrangA">
+            <hr /><br />
+            <h3>HỆ THỐNG CỬA HÀNG </h3><br />
+            <h4>BALONEO.COM</h4><br />
+            <h4>ĐỊA CHỈ:Đ.Trần Văn Ơn,P.Phú Hòa,TP.Thủ Dầu Một,T.Bình Dương</h4><br />
+            <h4>EMAIL:TRANTAN598497@GMAIL.COM</h4> <br />
+            <h4> KẾT NỐI VỚI CHÚNG TÔI</h4><br />
+            <img src="~/hinh/facebook.png" />
+            <img src="~/hinh/twitter.png" />
+            <img src="~/hinh/youtube.png" />
+            <img src="~/hinh/google-plus.png" />
+            <img src="~/hinh/gmail.png" />
+        </div>
+        <div class="cuoitrangC">
+            <hr /><br />
+            <h3>THÔNG TIN</h3><br />
+            <h4><a href="#">Chính sách bảo hành</a></h4><br />
+            <h4><a href="#">Chính sách vận chuyển</a></h4><br />
+            <h4><a href="#">Hình thức thanh toán</a></h4><br />
+            <h4><a href="#">Hướng dẫn mua hàng</a></h4>
+
+        </div>
+        <div class="cuoitrangB">
+            <hr /><br />
+            <h3>LIÊN HỆ</h3><br />
+            <h4>GỌI MUA HÀNG:0966375505</h4><br />
+            <h4>GÓP Ý KHIẾU NẠI:0966375505</h4><br />
+            <h2>THÔNG BÁO:</h2><br />
+            <img src="~/hinh/BCT.png" style="width:200px;height:80px;">
+        </div>
+    </div>
+
+</body>
+</html>
+

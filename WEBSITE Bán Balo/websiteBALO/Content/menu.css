@@ -1,0 +1,92 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman';
+    margin: 0;
+    position: static;
+}
+
+.top {
+    font-size: 17px;
+    height: 24px;
+    padding: 1px;
+    opacity: 0.9;
+    background-color: #050726;
+}
+
+    .top a {
+        color: aliceblue;
+        padding: 4px;
+    }
+
+        .top a.phone {
+            color: aliceblue;
+        }
+
+        .top a.location {
+            color: azure;
+        }
+
+.dangnhapdangky {
+    float: right;
+}
+
+.logo {
+    height: 80px;
+    background-color: white;
+}
+
+.logo1 img {
+    margin-left: 120px;
+    float: left;
+    width: 280px;
+    height: 80px;
+}
+
+.menu {
+    height: 50px;
+    opacity: 0.9;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #050726;
+}
+
+    .menu ul {
+        text-align: center;
+    }
+
+        .menu ul li {
+            display: inline-table;
+            width: 200px;
+            line-height: 50px;
+        }
+
+            .menu ul li a {
+                color: white;
+                text-decoration: none;
+                display: block;
+                background-color: #050726;
+            }
+
+.menucon li a {
+    width: 200px;
+}
+
+.menu ul li a:hover {
+    background-color: #050726;
+    color: darkorange;
+}
+
+.menu ul li > .menucon {
+    display: none;
+    position: absolute;
+}
+
+.menu ul li:hover .menucon {
+    display: block;
+}

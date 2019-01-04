@@ -1,0 +1,47 @@
+﻿@using websiteBALO.Models;
+
+<html>
+<head>
+    <link href="~/Content/balopartial.css" rel="stylesheet" />
+</head>
+<body>
+    @model List<SANPHAM>
+
+    <h2 style="background-color:white;height:50px;padding:10px;color:darkblue;box-shadow:  0 2px 3px rgba(0,0,0,.3);"><b>SẢN PHẨM ĐANG NỔI BẬT /</b></h2>
+    <center>
+        @{
+            foreach (var item in Model)
+            {
+
+                <div class="sanpham">
+                    <div class="header1">
+                        <center>
+
+                            <a href="@Url.Action("xemchitiet",new { @mabalo=item.Mabalo})">
+                                <img src="@Url.Content("~/hinh/balolaptop/" + item.banbia)"><br /><br />
+                                <strong> @item.Tenbalo </strong><br /><br />
+                                <p><strong>GIÁ:<font color="red">@string.Format("{0:0,0}", item.giaban)VND</font></strong></p><br />
+                                <font color="black">
+                                    <b>Xem chi tiết</b>
+                                </font>
+                                <br /><br />
+                                @item.NHASANXUAT.diachi
+                            </a>
+
+                        </center>
+                        <br />
+                        <br />
+
+                    </div>
+
+                </div>
+
+
+            }
+        }
+    </center>
+
+</body>
+
+</html>
+

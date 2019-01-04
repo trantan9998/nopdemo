@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Areas/adminbalo/admintemplate/css/bootstrap-theme.css" rel="stylesheet" />
+    <link href="~/Areas/adminbalo/admintemplate/css/elegant-icons-style.css" rel="stylesheet" />
+    <link href="~/Areas/adminbalo/admintemplate/css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- container section start -->
+    <section id="container">
+        <header class="header dark-bg">
+
+            <a href="~/Home/Index" class="logo" style="font-size:30px;"><b>BALO_NEO_</b><span class="lite"><b>ADMIN</b></span></a>
+
+            <div class="nav search-row" id="top_menu" style="float:right;">
+
+                <ul class="nav top-menu">
+
+                    <li>
+                        <div style="font-size:20px;">
+                            @{
+
+                                if (Session["taikhoan"] == null)
+                                {
+
+                                }
+                                else
+                                {
+                                    <a href="@Url.Action("dangnhap", "nguoidung")" style="text-decoration:none;">
+                                        <font color="#BAEDED">
+                                            <img src="~/hinh/login (2).png" style="width:20px;height:13px;">
+                                            xin chào bạn:
+                                        </font>@Session["taikhoan"]
+                                    </a>
+                                    @Html.ActionLink("Thoát", "dangnhapad", "khachhang")
+                                }
+                            }
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+
+        </header>
+
+        <aside>
+            <div id="sidebar" class="nav-collapse " style="width:180px;">
+
+                <!-- sidebar menu start-->
+                <ul class="sidebar-menu">
+
+                    <li class="active">
+                        <a class="" href="@Url.Action("khachhang","khachhang")">
+                            <center>
+                                <i class="icon_piechart" style="font-size:40px"></i>
+                                <span><font size="3"><b>QUẢN LÝ KHÁCH HÀNG</b></font></span>
+                            </center>
+                        </a>
+                    </li>
+
+                    <li class="active">
+                        <a class="" href="@Url.Action("ADquanlysanpham","Home")">
+                            <center>
+                                <i class="icon_table" style="font-size:40px"></i>
+                                <span><font size="3"><b> QUẢN LÝ SẢN PHẨM</b> </font></span>
+                            </center>
+                        </a>
+                    </li>
+
+                    <li class="active">
+                        <a class="" href="@Url.Action("donhang","khachhang")">
+                            <center>
+                                <i class="icon_calendar" style="font-size:40px"></i><br />
+                                <span><font size="3"><b>ĐƠN HÀNG</b> </font></span>
+                            </center>
+                        </a>
+                    </li>
+
+                    <li class="active" style="margin-top:290px;">
+                        <a href="~/Home/Index">
+                            🔙 TRANG CHỦ
+
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </aside>
+
+        <section id="main-content">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3 class="page-header"><i class="fa fa-laptop"></i>quanlysanpham</h3>
+                    @RenderBody()
+                </div>
+            </div>
+        </section>
+    </section>
+
+
+</body>
+</html>

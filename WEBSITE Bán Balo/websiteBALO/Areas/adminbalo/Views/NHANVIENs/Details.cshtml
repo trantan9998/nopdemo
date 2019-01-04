@@ -1,0 +1,83 @@
+﻿@model websiteBALO.Models.NHANVIEN
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/adminbalo/Views/Shared/Adminlayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>NHANVIEN</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Ho)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ho)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ten)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ten)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NgaySinh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NgaySinh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.QueQuan)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.QueQuan)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.created_at)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.created_at)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.updated_at)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.updated_at)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PHONGBAN.TenPhongBan)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PHONGBAN.TenPhongBan)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TRINHDOHOCVAN.TenTDHV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TRINHDOHOCVAN.TenTDHV)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.MaNV }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

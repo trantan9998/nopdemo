@@ -1,0 +1,85 @@
+﻿@model IEnumerable<websiteBALO.Models.SANPHAM>
+@using websiteBALO.Models;
+
+@{
+    ViewBag.Title = "QUẢN LÝ SẢN PHẨM";
+    Layout = "~/Areas/adminbalo/Views/Shared/Adminlayout.cshtml";
+}
+<center style="color:darkblue">
+    <h1><b>👨‍🎓QUẢN LÝ SẢN PHẨM</h1></b>
+    <h2>📖</h2>
+</center>
+<button style="font-size:17px;width:170px;height:38px;margin-left:20px;background-color:gainsboro">  <a href="@Url.Action("Them")" style="color:darkred;"><b>THÊM SẢN PHẨM</b></a></button><br /><br />
+<table class="table" border="1" style="font-size:17px;color:black;font-family:'Times New Roman';background-color:white;margin-left:20px;width:1150px">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Mabalo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Tenbalo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.giaban)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.mota)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.banbia)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ngaycapnhap)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.soluongton)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.maNSX)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.machude)
+        </th>
+        <th></th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Mabalo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tenbalo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.giaban)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.mota)
+            </td>
+            <td>
+                <div id="anhbia"><img src="@Url.Content("~/hinh/balolaptop/"+item.banbia)" width="100" height="90" /></div>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ngaycapnhap)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.soluongton)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.maNSX)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.machude)
+            </td>
+            <td>
+
+                <button style="font-size:20px;width:150px;height:50px;">  <a href="@Url.Action("Sua",new { @Mabalo=item.Mabalo})" style="color:darkred;">Sửa Thông Tin</a></button>
+                <br />
+                <br />
+                <button style="font-size:20px;width:150px;height:50px;">  <a href="@Url.Action("Xoa",new { @Mabalo=item.Mabalo})" style="color:darkred;">Xóa Sản Phẩm</a></button>
+            </td>
+        </tr>
+    }
+</table>
+
+

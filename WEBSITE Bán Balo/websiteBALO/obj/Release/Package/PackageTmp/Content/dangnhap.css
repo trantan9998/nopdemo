@@ -1,0 +1,23 @@
+﻿body {
+    font-family: 'Times New Roman';
+    margin: 0;
+    background-image: url('../hinh/colors-15646704.jpg');
+}
+
+.dangnhap {
+    font-size: 27px;
+}
+
+    .dangnhap .quaylai {
+        float: left;
+        background-color: darkblue;
+        border-radius: 10px;
+        font-size: 25px;
+    }
+
+    .dangnhap .dangky a {
+        float: right;
+        background-color: darkblue;
+        border-radius: 10px;
+        font-size: 25px;
+    }

@@ -1,0 +1,67 @@
+﻿@model websiteBALO.Models.KHACHHANG
+
+@{
+    ViewBag.Title = "Sửa thông tin";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<html>
+<head>
+
+</head>
+<body style="background-image: url('../../hinh/Bright-Blue1.jpg');">
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        <h1 style="background-color:aliceblue">CHỈNH SỬA THÔNG TIN \</h1>
+        <hr />
+
+        <div style="width:800px;height:480px;color: azure;font-size: 22px;background-image: url('../../hinh/11.jpg');text-align:right;border-radius:3%">
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+            <img src="~/hinh/user-icon-png-pnglogocom.png" style="width:400px;height:400px;float:left;">
+            @Html.LabelFor(model => model.maKH, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.EditorFor(model => model.maKH, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.maKH, "", new { @class = "text-danger" })
+            <br /><br />
+
+            @Html.LabelFor(model => model.hoten, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.EditorFor(model => model.hoten, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.hoten, "", new { @class = "text-danger" })
+
+            <br /><br />
+            @Html.LabelFor(model => model.taikhoan, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.EditorFor(model => model.taikhoan, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.taikhoan, "", new { @class = "text-danger" })
+            <br /><br />
+            @Html.LabelFor(model => model.email, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.EditorFor(model => model.email, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.email, "", new { @class = "text-danger" })
+            <br /><br />
+
+            @Html.LabelFor(model => model.diachi, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.EditorFor(model => model.diachi, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.diachi, "", new { @class = "text-danger" })
+
+            <br /><br />
+            @Html.LabelFor(model => model.dienthoai, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.EditorFor(model => model.dienthoai, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.dienthoai, "", new { @class = "text-danger" })
+
+            <br /><br />
+
+            @Html.LabelFor(model => model.ngaysinh, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.EditorFor(model => model.ngaysinh, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.ngaysinh, "", new { @class = "text-danger" })
+
+            <br /><br />
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="CẬP NHẬP" style="font-size:30px;">
+                </div>
+            </div>
+        </div>
+
+    }
+</body>
+</html>

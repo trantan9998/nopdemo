@@ -1,0 +1,395 @@
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\websiteBALO.dll.config
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\websiteBALO.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\websiteBALO.pdb
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\csc.exe
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\csc.exe.config
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\csc.rsp
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\csi.exe
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\csi.exe.config
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\csi.rsp
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\System.AppContext.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\System.Console.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\System.IO.Compression.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\System.IO.Pipes.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\System.Security.Claims.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\System.Threading.Thread.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\System.ValueTuple.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\System.Xml.XPath.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\vbc.exe
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\vbc.exe.config
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\vbc.rsp
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\VBCSCompiler.exe
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\System.Web.Helpers.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\System.Web.Mvc.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\System.Web.Razor.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\System.Web.Webpages.Deployment.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\System.Web.Webpages.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\System.Web.Webpages.Razor.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\System.Web.Razor.xml
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\System.Web.Webpages.xml
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\System.Web.Webpages.Deployment.xml
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\System.Web.Webpages.Razor.xml
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\System.Web.Helpers.xml
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\System.Web.Mvc.xml
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\obj\Debug\websiteBALO.csprojAssemblyReference.cache
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\obj\Debug\websiteBALO.csproj.CoreCompileInputs.cache
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\obj\Debug\websiteBALO.csproj.CopyComplete
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\obj\Debug\websiteBALO.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\obj\Debug\websiteBALO.pdb
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\EntityFramework.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\EntityFramework.xml
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\EntityFramework.SqlServer.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\EntityFramework.SqlServer.xml
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\PagedList.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\PagedList.Mvc.dll
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\PagedList.xml
+C:\Users\TRANTAN\Documents\Visual Studio 2017\websiteBALO\websiteBALO\bin\PagedList.Mvc.xml
+D:\websiteBALO\websiteBALO\bin\websiteBALO.dll.config
+D:\websiteBALO\websiteBALO\bin\websiteBALO.dll
+D:\websiteBALO\websiteBALO\bin\websiteBALO.pdb
+D:\websiteBALO\websiteBALO\bin\roslyn\csc.exe
+D:\websiteBALO\websiteBALO\bin\roslyn\csc.exe.config
+D:\websiteBALO\websiteBALO\bin\roslyn\csc.rsp
+D:\websiteBALO\websiteBALO\bin\roslyn\csi.exe
+D:\websiteBALO\websiteBALO\bin\roslyn\csi.exe.config
+D:\websiteBALO\websiteBALO\bin\roslyn\csi.rsp
+D:\websiteBALO\websiteBALO\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\websiteBALO\websiteBALO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\websiteBALO\websiteBALO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\websiteBALO\websiteBALO\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\websiteBALO\websiteBALO\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\websiteBALO\websiteBALO\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\websiteBALO\websiteBALO\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\websiteBALO\websiteBALO\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\websiteBALO\websiteBALO\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\websiteBALO\websiteBALO\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\websiteBALO\websiteBALO\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\websiteBALO\websiteBALO\bin\roslyn\System.AppContext.dll
+D:\websiteBALO\websiteBALO\bin\roslyn\System.Collections.Immutable.dll
+D:\websiteBALO\websiteBALO\bin\roslyn\System.Console.dll
+D:\websiteBALO\websiteBALO\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\websiteBALO\websiteBALO\bin\roslyn\System.Diagnostics.Process.dll
+D:\websiteBALO\websiteBALO\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\websiteBALO\websiteBALO\bin\roslyn\System.IO.Compression.dll
+D:\websiteBALO\websiteBALO\bin\roslyn\System.IO.FileSystem.dll
+D:\websiteBALO\websiteBALO\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\websiteBALO\websiteBALO\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\websiteBALO\websiteBALO\bin\roslyn\System.IO.Pipes.dll
+D:\websiteBALO\websiteBALO\bin\roslyn\System.Reflection.Metadata.dll
+D:\websiteBALO\websiteBALO\bin\roslyn\System.Security.AccessControl.dll
+D:\websiteBALO\websiteBALO\bin\roslyn\System.Security.Claims.dll
+D:\websiteBALO\websiteBALO\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\websiteBALO\websiteBALO\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\websiteBALO\websiteBALO\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\websiteBALO\websiteBALO\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\websiteBALO\websiteBALO\bin\roslyn\System.Security.Principal.Windows.dll
+D:\websiteBALO\websiteBALO\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\websiteBALO\websiteBALO\bin\roslyn\System.Threading.Thread.dll
+D:\websiteBALO\websiteBALO\bin\roslyn\System.ValueTuple.dll
+D:\websiteBALO\websiteBALO\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\websiteBALO\websiteBALO\bin\roslyn\System.Xml.XmlDocument.dll
+D:\websiteBALO\websiteBALO\bin\roslyn\System.Xml.XPath.dll
+D:\websiteBALO\websiteBALO\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\websiteBALO\websiteBALO\bin\roslyn\vbc.exe
+D:\websiteBALO\websiteBALO\bin\roslyn\vbc.exe.config
+D:\websiteBALO\websiteBALO\bin\roslyn\vbc.rsp
+D:\websiteBALO\websiteBALO\bin\roslyn\VBCSCompiler.exe
+D:\websiteBALO\websiteBALO\bin\roslyn\VBCSCompiler.exe.config
+D:\websiteBALO\websiteBALO\bin\EntityFramework.dll
+D:\websiteBALO\websiteBALO\bin\EntityFramework.SqlServer.dll
+D:\websiteBALO\websiteBALO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\websiteBALO\websiteBALO\bin\Microsoft.Web.Infrastructure.dll
+D:\websiteBALO\websiteBALO\bin\PagedList.dll
+D:\websiteBALO\websiteBALO\bin\PagedList.Mvc.dll
+D:\websiteBALO\websiteBALO\bin\System.Web.Helpers.dll
+D:\websiteBALO\websiteBALO\bin\System.Web.Mvc.dll
+D:\websiteBALO\websiteBALO\bin\System.Web.Razor.dll
+D:\websiteBALO\websiteBALO\bin\System.Web.Webpages.Deployment.dll
+D:\websiteBALO\websiteBALO\bin\System.Web.Webpages.dll
+D:\websiteBALO\websiteBALO\bin\System.Web.Webpages.Razor.dll
+D:\websiteBALO\websiteBALO\bin\EntityFramework.xml
+D:\websiteBALO\websiteBALO\bin\EntityFramework.SqlServer.xml
+D:\websiteBALO\websiteBALO\bin\PagedList.xml
+D:\websiteBALO\websiteBALO\bin\PagedList.Mvc.xml
+D:\websiteBALO\websiteBALO\bin\System.Web.Razor.xml
+D:\websiteBALO\websiteBALO\bin\System.Web.Webpages.xml
+D:\websiteBALO\websiteBALO\bin\System.Web.Webpages.Deployment.xml
+D:\websiteBALO\websiteBALO\bin\System.Web.Webpages.Razor.xml
+D:\websiteBALO\websiteBALO\bin\System.Web.Helpers.xml
+D:\websiteBALO\websiteBALO\bin\System.Web.Mvc.xml
+D:\websiteBALO\websiteBALO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\websiteBALO\websiteBALO\obj\Debug\websiteBALO.csprojAssemblyReference.cache
+D:\websiteBALO\websiteBALO\obj\Debug\websiteBALO.csproj.CoreCompileInputs.cache
+D:\websiteBALO\websiteBALO\obj\Debug\websiteBALO.csproj.CopyComplete
+D:\websiteBALO\websiteBALO\obj\Debug\websiteBALO.dll
+D:\websiteBALO\websiteBALO\obj\Debug\websiteBALO.pdb
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\websiteBALO.dll.config
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\websiteBALO.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\websiteBALO.pdb
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\csc.exe
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\csc.exe.config
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\csc.rsp
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\csi.exe
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\csi.exe.config
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\csi.rsp
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\System.AppContext.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\System.Console.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\System.IO.Compression.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\System.IO.Pipes.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\System.Security.Claims.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\System.Threading.Thread.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\System.ValueTuple.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\System.Xml.XPath.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\vbc.exe
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\vbc.exe.config
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\vbc.rsp
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\VBCSCompiler.exe
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\EntityFramework.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\EntityFramework.SqlServer.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\PagedList.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\PagedList.Mvc.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\System.Web.Helpers.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\System.Web.Mvc.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\System.Web.Razor.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\System.Web.Webpages.Deployment.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\System.Web.Webpages.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\System.Web.Webpages.Razor.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\EntityFramework.xml
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\EntityFramework.SqlServer.xml
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\PagedList.xml
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\PagedList.Mvc.xml
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\System.Web.Razor.xml
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\System.Web.Webpages.xml
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\System.Web.Webpages.Deployment.xml
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\System.Web.Webpages.Razor.xml
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\System.Web.Helpers.xml
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\System.Web.Mvc.xml
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\obj\Debug\websiteBALO.csprojAssemblyReference.cache
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\obj\Debug\websiteBALO.csproj.CoreCompileInputs.cache
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\obj\Debug\websiteBALO.csproj.CopyComplete
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\obj\Debug\websiteBALO.dll
+C:\Users\TRANTAN\Desktop\doan web\websiteBALO\obj\Debug\websiteBALO.pdb
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\websiteBALO.dll.config
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\websiteBALO.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\websiteBALO.pdb
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\csc.exe
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\csc.exe.config
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\csc.rsp
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\csi.exe
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\csi.exe.config
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\csi.rsp
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.AppContext.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.Console.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.IO.Compression.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.IO.Pipes.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.Security.Claims.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.Threading.Thread.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.ValueTuple.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.Xml.XPath.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\vbc.exe
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\vbc.exe.config
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\vbc.rsp
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\VBCSCompiler.exe
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\EntityFramework.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\EntityFramework.SqlServer.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\PagedList.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\PagedList.Mvc.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\System.Web.Helpers.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\System.Web.Mvc.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\System.Web.Razor.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\System.Web.Webpages.Deployment.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\System.Web.Webpages.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\System.Web.Webpages.Razor.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\EntityFramework.xml
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\EntityFramework.SqlServer.xml
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\PagedList.xml
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\PagedList.Mvc.xml
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\System.Web.Razor.xml
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\System.Web.Webpages.xml
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\System.Web.Webpages.Deployment.xml
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\System.Web.Webpages.Razor.xml
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\System.Web.Helpers.xml
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\System.Web.Mvc.xml
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\obj\Debug\websiteBALO.csprojAssemblyReference.cache
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\obj\Debug\websiteBALO.csproj.CoreCompileInputs.cache
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\obj\Debug\websiteBALO.csproj.CopyComplete
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\obj\Debug\websiteBALO.dll
+C:\Users\TRANTAN\Desktop\WEBSITE Bán Balo\websiteBALO\obj\Debug\websiteBALO.pdb
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\websiteBALO.dll.config
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\websiteBALO.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\websiteBALO.pdb
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\csc.exe
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\csc.exe.config
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\csc.rsp
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\csi.exe
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\csi.exe.config
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\csi.rsp
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.AppContext.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.Console.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.IO.Compression.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.IO.Pipes.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.Security.Claims.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.Threading.Thread.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.ValueTuple.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.Xml.XPath.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\vbc.exe
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\vbc.exe.config
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\vbc.rsp
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\VBCSCompiler.exe
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\EntityFramework.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\EntityFramework.SqlServer.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\PagedList.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\PagedList.Mvc.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\System.Web.Helpers.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\System.Web.Mvc.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\System.Web.Razor.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\System.Web.Webpages.Deployment.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\System.Web.Webpages.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\System.Web.Webpages.Razor.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\EntityFramework.xml
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\EntityFramework.SqlServer.xml
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\PagedList.xml
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\PagedList.Mvc.xml
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\System.Web.Razor.xml
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\System.Web.Webpages.xml
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\System.Web.Webpages.Deployment.xml
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\System.Web.Webpages.Razor.xml
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\System.Web.Helpers.xml
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\System.Web.Mvc.xml
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\obj\Debug\websiteBALO.csproj.CoreCompileInputs.cache
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\obj\Debug\websiteBALO.csproj.CopyComplete
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\obj\Debug\websiteBALO.dll
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\obj\Debug\websiteBALO.pdb
+C:\Users\MinHoo\Downloads\ĐỒ ÁN WEBSITE - BÁN BALO\ĐỒ ÁN WEBSITE - BÁN BALO\WEBSITE Bán Balo\websiteBALO\obj\Debug\websiteBALO.csprojAssemblyReference.cache
